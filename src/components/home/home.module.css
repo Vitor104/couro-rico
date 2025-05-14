@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 100vh;
+    background-color: #4E342E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+
+.navPerso {
+    background-color: #D7CCC8;
+    width: 100%;
+    z-index: 1;
+}
+
+.fotos {
+    height: 15em;
+    width: 15em;
+}
+
+
+/*
+header {
+    height: 10em;
+    width: 100%;
+    background-color: bisque;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+*/
