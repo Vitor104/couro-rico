@@ -3,6 +3,7 @@ import styles from "./home.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { NavLink } from "react-router-dom";
+import Hero from "../hero/hero";
 
 
 function Home() {
@@ -24,7 +25,7 @@ function Home() {
                 <NavLink exact to={"/hero"} className="nav-link">Produtos</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="#" className="nav-link">Sobre</NavLink>
+                <NavLink to={"/alguns"} className="nav-link">Sobre</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="#" className="nav-link">Contatos</NavLink>
@@ -33,6 +34,8 @@ function Home() {
             
           </div>
         </nav>
+
+        <Hero />
        
     </div>
 
