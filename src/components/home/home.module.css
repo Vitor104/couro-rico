@@ -6,7 +6,7 @@
 
 
 .container {
-    height: 100vh;
+    height: 400vh;
     background-color: #4E342E;
     display: flex;
     flex-direction: column;
@@ -36,18 +36,3 @@
 }
 
 
-/*
-header {
-    height: 10em;
-    width: 100%;
-    background-color: bisque;
-    position: fixed;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-*/

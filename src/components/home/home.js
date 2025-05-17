@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { NavLink } from "react-router-dom";
 import Hero from "../hero/hero";
+import AlgunsProdutos from "../algunsProdutos/algunsProdutos";
+import QuemSomos from "../quemsomos/quemSomos";
 
 
 function Home() {
@@ -36,7 +38,8 @@ function Home() {
         </nav>
 
         <Hero />
-       
+        <AlgunsProdutos />
+        <QuemSomos />
     </div>
 
   );
