@@ -13,11 +13,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    
 }
 
 .imagem {
     height: 14em;
     width: 90%;
+    border-radius: 10px;
+}
+
+.infos {
+    background-color: #D7CCC8;
+    width: 90%;
+    margin: 2em;
     border-radius: 10px;
 }

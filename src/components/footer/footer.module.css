@@ -7,7 +7,8 @@
 .container {
     height: 20em;
     width: 100%;
-    background-color: #D7CCC8;
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
