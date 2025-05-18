@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import Hero from "../hero/hero";
 import AlgunsProdutos from "../algunsProdutos/algunsProdutos";
 import QuemSomos from "../quemsomos/quemSomos";
-
+import Footer from "../footer/footer";
 
 function Home() {
   return (
@@ -40,6 +40,7 @@ function Home() {
         <Hero />
         <AlgunsProdutos />
         <QuemSomos />
+        <Footer />
     </div>
 
   );
