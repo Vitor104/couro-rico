@@ -15,12 +15,15 @@ function Footer() {
                 <p>Whatsapp: (83) 99310-4113</p>
             </div>
             <div className={styles.contatosIcon}>
-                <a href="https://www.instagram.com/couro_rico/"><img className="bg-white" src={InstagramLogo}></img></a>
+                <a href="https://www.instagram.com/couro_rico/" className={styles.imgFromFooter}>
+                <img className={`bg-white ${styles.footerImg}`} src={InstagramLogo}></img></a>
+
                 <a 
                 href="https://wa.me/5583993104113" 
                 target="_blank"
-                rel="noopener noreferrer"        
-                ><img src={Whatsapp} className="bg-white"></img></a>
+                rel="noopener noreferrer"
+                className={styles.imgFromFooter}        
+                ><img src={Whatsapp} className={`bg-white ${styles.footerImg}`}></img></a>
                 
             </div>
         </div>

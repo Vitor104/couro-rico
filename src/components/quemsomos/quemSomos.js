@@ -1,16 +1,33 @@
 import React from "react";
 import styles from "./quemSomos.module.css";
 import people from '../home/people.jpeg';
-
+import check from "./check-fat.svg";
+import { CheckCircle } from 'phosphor-react';
 
 function QuemSomos() {
     return (
         <div className={styles.container}>
-            <img src={people} className={styles.imagem}></img>
+            
             <div className={styles.infos}>
                 <h2 className="text-black">Quem somos?</h2>
-                <p className="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
+
+            <img src={people} className={styles.imagem}></img>
+            <p class="card-text"><small class="text-muted">Nossa equipe pronta para te atender!</small></p>
+
+            <div className={styles.infos}>
+                <p className={`text-black ${styles.paragraph}`}>A Couro Rico nasceu na Paraíba com a missão de oferecer produtos artesanais em couro com qualidade, estilo e durabilidade. Cada peça é feita com atenção aos detalhes, pensando em você.</p>
+
+                <ul className={styles.lista}>
+      <li>
+        <img src={check}></img> Couro legítimo de alta qualidade
+      </li>
+      
+    </ul>
+            </div>
+
+            
+            
         </div>
     )
 }

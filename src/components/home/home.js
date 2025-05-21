@@ -27,7 +27,7 @@ function Home() {
                 <NavLink exact to={"/hero"} className="nav-link">Produtos</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/alguns"} className="nav-link">Sobre</NavLink>
+                <NavLink to="#" className="nav-link">Sobre</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="#" className="nav-link">Contatos</NavLink>

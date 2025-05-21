@@ -15,3 +15,13 @@
     justify-content: center;
     text-align: center;
 }
+
+.imgFromFooter {
+    margin: 1em;
+    border-radius: 10px;
+}
+
+
+.footerImg {
+    border-radius: 10px;
+}

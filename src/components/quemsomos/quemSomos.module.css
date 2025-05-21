@@ -9,22 +9,27 @@
     width: 100%;
     height: 50em;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    background-color: #D7CCC8;
 }
 
 .imagem {
-    height: 14em;
+    height: 10em;
     width: 90%;
     border-radius: 10px;
 }
 
 .infos {
-    background-color: #D7CCC8;
     width: 90%;
     margin: 2em;
+    padding: 2em;
     border-radius: 10px;
+}
+
+.lista {
+    list-style: none;
+    width: 100%;
 }

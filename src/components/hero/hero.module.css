@@ -25,6 +25,9 @@
 }
 
 .imagem {
-    height: 15em;
-    border-radius: 5px;
+    height: 10em;
+    width: 10em;
+    margin:  0 auto;
+    border-radius: 10px;
 }
+
