@@ -3,6 +3,7 @@ import styles from "./home.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { NavLink } from "react-router-dom";
+import { Link } from 'react-scroll';
 import Hero from "../hero/hero";
 import AlgunsProdutos from "../algunsProdutos/algunsProdutos";
 import QuemSomos from "../quemsomos/quemSomos";
@@ -19,18 +20,21 @@ function Home() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item active">
-                <NavLink to="#" className="nav-link">Inicio</NavLink>
+            <ul className={`navbar-nav ${styles.ul}`}>
+              <li className={`nav-item text-black ${styles.li}`}>
+                <Link to="alguns" smooth={true} duration={500}>
+                  Produtos
+                </Link>
               </li>
-              <li className="nav-item">
-                <NavLink exact to={"/hero"} className="nav-link">Produtos</NavLink>
+              <li className={`nav-item text-black ${styles.li}`}>
+                <Link to="sobre" smooth={true} duration={500}>
+                  Sobre
+                </Link>
               </li>
-              <li className="nav-item">
-                <NavLink to="#" className="nav-link">Sobre</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="#" className="nav-link">Contatos</NavLink>
+              <li className={`nav-item text-black ${styles.li}`}>
+                <Link to="contato" smooth={true} duration={500}>
+                  Contato
+                </Link>
               </li>
             </ul>
             

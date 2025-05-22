@@ -5,10 +5,10 @@ import Whatsapp from './whatsapp-logo.svg';
 
 function Footer() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="contato">
             <div className={styles.tituloEInfo}>
                 <h3>Couro Rico</h3>
-                <p>Acessórios diretamente da paraíba para todo o Brasil!</p>
+                <p className={styles.paragraph}>Acessórios diretamente da paraíba para todo o Brasil!</p>
             </div>
             <div className={styles.contatosTexto}>
                 <h3>Contato</h3>
