@@ -12,7 +12,10 @@ function AlgunsProdutos() {
             <div className={`card-body`}>
                 <h5 className={`card-title text-white ${styles.titulo}`}>Bolsa</h5>
                 <p className={`card-text text-white ${styles.description}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#" className={`btn btn-warning ${styles.btt}`}>Comprar</a>
+                <a href="https://wa.me/5583993104113" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`btn btn-warning ${styles.btt}`}>Comprar</a>
             </div>
             </div>
             
@@ -23,7 +26,10 @@ function AlgunsProdutos() {
             <div className={`card-body`}>
                 <h5 className={`card-title text-white ${styles.titulo}`}>Bolsa</h5>
                 <p className={`card-text text-white ${styles.description}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#" className={`btn btn-warning ${styles.btt}`}>Comprar</a>
+                <a href="https://wa.me/5583993104113" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`btn btn-warning ${styles.btt}`}>Comprar</a>
             </div>
             </div>
 

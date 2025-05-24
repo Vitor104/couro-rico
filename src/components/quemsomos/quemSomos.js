@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./quemSomos.module.css";
 import people from '../home/people.jpeg';
 import check from "./check-fat.svg";
-import { CheckCircle } from 'phosphor-react';
 
 function QuemSomos() {
     return (
@@ -12,7 +11,7 @@ function QuemSomos() {
                 <h2 className="text-black">Quem somos?</h2>
             </div>
 
-            <img src={people} className={`img-fluid ${styles.imagem}`}></img>
+            <img src={people} className={`img-fluid ${styles.imagem}`} alt="Nossa equipe"></img>
             <p class="card-text"><small class="text-muted">Nossa equipe pronta para te atender!</small></p>
 
             <div className={styles.infos}>

@@ -16,14 +16,14 @@ function Footer() {
             </div>
             <div className={styles.contatosIcon}>
                 <a href="https://www.instagram.com/couro_rico/" className={styles.imgFromFooter}>
-                <img className={`bg-white ${styles.footerImg}`} src={InstagramLogo}></img></a>
+                <img className={`bg-white ${styles.footerImg}`} src={InstagramLogo} alt="Instagram Icon"></img></a>
 
                 <a 
                 href="https://wa.me/5583993104113" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.imgFromFooter}        
-                ><img src={Whatsapp} className={`bg-white ${styles.footerImg}`}></img></a>
+                ><img src={Whatsapp} className={`bg-white ${styles.footerImg}`} alt="Whatsapp Icon"></img></a>
                 
             </div>
         </div>
