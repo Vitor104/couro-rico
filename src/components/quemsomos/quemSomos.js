@@ -15,7 +15,7 @@ function QuemSomos() {
             <p class="card-text"><small class="text-muted">Nossa equipe pronta para te atender!</small></p>
 
             <div className={styles.infos}>
-                <p className={`text-black ${styles.paragraph}`}>A Couro Rico nasceu na Paraíba com a missão de oferecer produtos artesanais em couro com qualidade, estilo e durabilidade. Cada peça é feita com atenção aos detalhes, pensando em você.</p>
+                <p className={`text-black ${styles.paragraph}`}>A Couro Rico nasceu na Paraíba com a missão de oferecer produtos em couro com qualidade, estilo e durabilidade. Cada peça é feita com atenção aos detalhes, pensando em você.</p>
             </div>
 
             <div className={styles.caracteristicas}>
