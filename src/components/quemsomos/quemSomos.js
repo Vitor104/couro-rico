@@ -20,11 +20,11 @@ function QuemSomos() {
 
             <div className={styles.caracteristicas}>
                 <div>
-                    <img src={check} className={styles.check}></img> Couro de alta qualidade
+                    <img src={check} className={styles.check} alt="Check icon"></img> Couro de alta qualidade
                 </div>
                 
                 <div>
-                    <img src={check} className={styles.check}></img> Enviamos para todo o Brasil
+                    <img src={check} className={styles.check} alt="Check icon"></img> Enviamos para todo o Brasil
                 </div>
         
             </div>
