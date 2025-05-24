@@ -11,10 +11,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation-name: projectsEffect;
+    animation-duration: 2s;
     
 }
-
-
 
 .logo {
     text-decoration: none;
@@ -30,12 +30,6 @@
     border-bottom: 3px solid white;
 }
 
-.fotos {
-    height: 15em;
-    width: 15em;
-}
-
-
 .ul {
     margin-left: 1em;
 }
@@ -43,4 +37,15 @@
 .li {
     margin: 0.5em;
     cursor: pointer;
+}
+
+@keyframes projectsEffect {
+  from {transform: translate(-150px);}
+}
+
+@media only screen and (min-width: 2560px) {
+    .container {
+        width: 50%;
+        margin: 0 auto;
+    }
 }

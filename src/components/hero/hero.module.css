@@ -12,6 +12,7 @@
 
 .titulo {
     text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
 .imageContainer {
@@ -24,10 +25,66 @@
     justify-content: space-evenly;
 }
 
+.textContent {
+    margin-bottom: 1em;
+}
+
 .imagem {
-    height: 10em;
-    width: 10em;
+    height: 15em;
+    width: 15em;
     margin:  0 auto;
     border-radius: 10px;
 }
 
+@media only screen and (min-width: 1024px) {
+    .imageContainer {
+        flex-direction: row-reverse;
+    }
+
+    .imagem {
+        height: 25em;
+        width: 25em;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .textContent {
+        width: 50%;
+    }
+}
+
+
+
+
+/*
+.desktopVersion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infosDesktop {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageDesktopContainer {
+    width: 50%;
+    height: 30em;
+    display: flex;
+    padding: 2em;
+}
+
+.imagemDesktop {
+    width: 25em;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+*/

@@ -57,22 +57,3 @@ export default Home;
 
 
 
-/* 
-<ul className="navbar-nav">
-              <li className="nav-item active">
-                <NavLink to="#" className="nav-link">Inicio</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink exact to={"/Hero"} className="nav-link">Produtos</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="#" className="nav-link">Sobre</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="#" className="nav-link">Contatos</NavLink>
-              </li>
-            </ul>
-
-
-
-*/
